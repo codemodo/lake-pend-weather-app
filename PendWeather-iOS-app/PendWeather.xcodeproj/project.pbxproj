@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA026DFB1C54A5170067CF09 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA026DFA1C54A5170067CF09 /* CloudKit.framework */; };
+		FA2272891C549FF00064DEFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2272881C549FF00064DEFD /* AppDelegate.swift */; };
+		FA22728B1C549FF00064DEFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22728A1C549FF00064DEFD /* ViewController.swift */; };
+		FA22728E1C549FF00064DEFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA22728C1C549FF00064DEFD /* Main.storyboard */; };
+		FA2272911C549FF00064DEFD /* PendWeather.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FA22728F1C549FF00064DEFD /* PendWeather.xcdatamodeld */; };
+		FA2272931C549FF00064DEFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2272921C549FF00064DEFD /* Assets.xcassets */; };
+		FA2272961C549FF00064DEFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA2272941C549FF00064DEFD /* LaunchScreen.storyboard */; };
+		FA2272A11C549FF00064DEFD /* PendWeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2272A01C549FF00064DEFD /* PendWeatherTests.swift */; };
+		FA2272AC1C549FF00064DEFD /* PendWeatherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2272AB1C549FF00064DEFD /* PendWeatherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA22729D1C549FF00064DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA22727D1C549FF00064DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2272841C549FF00064DEFD;
+			remoteInfo = PendWeather;
+		};
+		FA2272A81C549FF00064DEFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA22727D1C549FF00064DEFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA2272841C549FF00064DEFD;
+			remoteInfo = PendWeather;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA026DFA1C54A5170067CF09 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		FA2272851C549FF00064DEFD /* PendWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PendWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2272881C549FF00064DEFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FA22728A1C549FF00064DEFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FA22728D1C549FF00064DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FA2272901C549FF00064DEFD /* PendWeather.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PendWeather.xcdatamodel; sourceTree = "<group>"; };
+		FA2272921C549FF00064DEFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FA2272951C549FF00064DEFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FA2272971C549FF00064DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA22729C1C549FF00064DEFD /* PendWeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendWeatherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2272A01C549FF00064DEFD /* PendWeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendWeatherTests.swift; sourceTree = "<group>"; };
+		FA2272A21C549FF00064DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2272A71C549FF00064DEFD /* PendWeatherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PendWeatherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA2272AB1C549FF00064DEFD /* PendWeatherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendWeatherUITests.swift; sourceTree = "<group>"; };
+		FA2272AD1C549FF00064DEFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA2272B91C54A00B0064DEFD /* PendWeather.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PendWeather.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA2272821C549FF00064DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA026DFB1C54A5170067CF09 /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2272991C549FF00064DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2272A41C549FF00064DEFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA22727C1C549FF00064DEFD = {
+			isa = PBXGroup;
+			children = (
+				FA026DFA1C54A5170067CF09 /* CloudKit.framework */,
+				FA2272871C549FF00064DEFD /* PendWeather */,
+				FA22729F1C549FF00064DEFD /* PendWeatherTests */,
+				FA2272AA1C549FF00064DEFD /* PendWeatherUITests */,
+				FA2272861C549FF00064DEFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA2272861C549FF00064DEFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA2272851C549FF00064DEFD /* PendWeather.app */,
+				FA22729C1C549FF00064DEFD /* PendWeatherTests.xctest */,
+				FA2272A71C549FF00064DEFD /* PendWeatherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA2272871C549FF00064DEFD /* PendWeather */ = {
+			isa = PBXGroup;
+			children = (
+				FA2272B91C54A00B0064DEFD /* PendWeather.entitlements */,
+				FA2272881C549FF00064DEFD /* AppDelegate.swift */,
+				FA22728A1C549FF00064DEFD /* ViewController.swift */,
+				FA22728C1C549FF00064DEFD /* Main.storyboard */,
+				FA2272921C549FF00064DEFD /* Assets.xcassets */,
+				FA2272941C549FF00064DEFD /* LaunchScreen.storyboard */,
+				FA2272971C549FF00064DEFD /* Info.plist */,
+				FA22728F1C549FF00064DEFD /* PendWeather.xcdatamodeld */,
+			);
+			path = PendWeather;
+			sourceTree = "<group>";
+		};
+		FA22729F1C549FF00064DEFD /* PendWeatherTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2272A01C549FF00064DEFD /* PendWeatherTests.swift */,
+				FA2272A21C549FF00064DEFD /* Info.plist */,
+			);
+			path = PendWeatherTests;
+			sourceTree = "<group>";
+		};
+		FA2272AA1C549FF00064DEFD /* PendWeatherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FA2272AB1C549FF00064DEFD /* PendWeatherUITests.swift */,
+				FA2272AD1C549FF00064DEFD /* Info.plist */,
+			);
+			path = PendWeatherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA2272841C549FF00064DEFD /* PendWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2272B01C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeather" */;
+			buildPhases = (
+				FA2272811C549FF00064DEFD /* Sources */,
+				FA2272821C549FF00064DEFD /* Frameworks */,
+				FA2272831C549FF00064DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PendWeather;
+			productName = PendWeather;
+			productReference = FA2272851C549FF00064DEFD /* PendWeather.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA22729B1C549FF00064DEFD /* PendWeatherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2272B31C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeatherTests" */;
+			buildPhases = (
+				FA2272981C549FF00064DEFD /* Sources */,
+				FA2272991C549FF00064DEFD /* Frameworks */,
+				FA22729A1C549FF00064DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA22729E1C549FF00064DEFD /* PBXTargetDependency */,
+			);
+			name = PendWeatherTests;
+			productName = PendWeatherTests;
+			productReference = FA22729C1C549FF00064DEFD /* PendWeatherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FA2272A61C549FF00064DEFD /* PendWeatherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA2272B61C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeatherUITests" */;
+			buildPhases = (
+				FA2272A31C549FF00064DEFD /* Sources */,
+				FA2272A41C549FF00064DEFD /* Frameworks */,
+				FA2272A51C549FF00064DEFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA2272A91C549FF00064DEFD /* PBXTargetDependency */,
+			);
+			name = PendWeatherUITests;
+			productName = PendWeatherUITests;
+			productReference = FA2272A71C549FF00064DEFD /* PendWeatherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA22727D1C549FF00064DEFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Kodemodo;
+				TargetAttributes = {
+					FA2272841C549FF00064DEFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = JGF6FLSZ98;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					FA22729B1C549FF00064DEFD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA2272841C549FF00064DEFD;
+					};
+					FA2272A61C549FF00064DEFD = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = FA2272841C549FF00064DEFD;
+					};
+				};
+			};
+			buildConfigurationList = FA2272801C549FF00064DEFD /* Build configuration list for PBXProject "PendWeather" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA22727C1C549FF00064DEFD;
+			productRefGroup = FA2272861C549FF00064DEFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA2272841C549FF00064DEFD /* PendWeather */,
+				FA22729B1C549FF00064DEFD /* PendWeatherTests */,
+				FA2272A61C549FF00064DEFD /* PendWeatherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA2272831C549FF00064DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2272961C549FF00064DEFD /* LaunchScreen.storyboard in Resources */,
+				FA2272931C549FF00064DEFD /* Assets.xcassets in Resources */,
+				FA22728E1C549FF00064DEFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA22729A1C549FF00064DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2272A51C549FF00064DEFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA2272811C549FF00064DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2272911C549FF00064DEFD /* PendWeather.xcdatamodeld in Sources */,
+				FA22728B1C549FF00064DEFD /* ViewController.swift in Sources */,
+				FA2272891C549FF00064DEFD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2272981C549FF00064DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2272A11C549FF00064DEFD /* PendWeatherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA2272A31C549FF00064DEFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA2272AC1C549FF00064DEFD /* PendWeatherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA22729E1C549FF00064DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2272841C549FF00064DEFD /* PendWeather */;
+			targetProxy = FA22729D1C549FF00064DEFD /* PBXContainerItemProxy */;
+		};
+		FA2272A91C549FF00064DEFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA2272841C549FF00064DEFD /* PendWeather */;
+			targetProxy = FA2272A81C549FF00064DEFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA22728C1C549FF00064DEFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA22728D1C549FF00064DEFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FA2272941C549FF00064DEFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA2272951C549FF00064DEFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA2272AE1C549FF00064DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FA2272AF1C549FF00064DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA2272B11C549FF00064DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PendWeather/PendWeather.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PendWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		FA2272B21C549FF00064DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PendWeather/PendWeather.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = PendWeather/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeather;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		FA2272B41C549FF00064DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PendWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendWeather.app/PendWeather";
+			};
+			name = Debug;
+		};
+		FA2272B51C549FF00064DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PendWeatherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeatherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PendWeather.app/PendWeather";
+			};
+			name = Release;
+		};
+		FA2272B71C549FF00064DEFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PendWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PendWeather;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		FA2272B81C549FF00064DEFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PendWeatherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kodemodo.PendWeatherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PendWeather;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA2272801C549FF00064DEFD /* Build configuration list for PBXProject "PendWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2272AE1C549FF00064DEFD /* Debug */,
+				FA2272AF1C549FF00064DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2272B01C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2272B11C549FF00064DEFD /* Debug */,
+				FA2272B21C549FF00064DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2272B31C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeatherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2272B41C549FF00064DEFD /* Debug */,
+				FA2272B51C549FF00064DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA2272B61C549FF00064DEFD /* Build configuration list for PBXNativeTarget "PendWeatherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA2272B71C549FF00064DEFD /* Debug */,
+				FA2272B81C549FF00064DEFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FA22728F1C549FF00064DEFD /* PendWeather.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FA2272901C549FF00064DEFD /* PendWeather.xcdatamodel */,
+			);
+			currentVersion = FA2272901C549FF00064DEFD /* PendWeather.xcdatamodel */;
+			path = PendWeather.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FA22727D1C549FF00064DEFD /* Project object */;
+}
